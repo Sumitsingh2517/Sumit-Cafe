@@ -1,0 +1,270 @@
+body{
+    background-color: rgb(245, 240, 234);
+    padding: 0px;
+    margin: 0px;
+}
+/* navbar  */
+.top-navbar{
+    padding-left:10% ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: x-large;
+}
+.top-nav-ul{
+    padding-right: 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* hero-section */
+#hero-section{
+    margin: 0% 4%;
+    position: relative;
+    margin-bottom: -80px;
+}
+
+/* about section  */
+
+#about{
+    margin: 0% 12%;
+    box-shadow: 0px 0px 7px 1px rgb(108, 106, 106);
+    z-index: 10;
+    position: absolute;
+}
+.about-heading{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5% 0%;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.about-paragraph{
+    text-align: left;
+    padding: 0% 4%;
+    font-family: "Montserrat";
+}
+
+.contact-btn{
+    background-color: black;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* zoom */
+#zoom{
+    margin: 4% 0%;
+    cursor: pointer;
+}
+.zoom-img {
+    width: 300px;
+    height:auto;
+    overflow: hidden;
+    }
+
+.zoom-img  img {
+    width: 100%;
+    transition: all .2s ease-in-out;
+    }
+
+    .zoom-img img:hover   {
+    transform: scale(1.2);
+    }
+
+    /* menu */
+#menu{
+        background-color: white;
+        margin: 0% 12%;
+        box-shadow: 0px 0px 7px 1px rgb(108, 106, 106);
+        position: absolute;
+    }
+.menu-heading{
+        font-family:'Montserrat', sans-serif;
+    }
+.menu-img{
+        width: 300px;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+.menu-img img{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    transition: all .2s ease-in-out;
+}
+.menu-img img:hover{
+    transform: scale(1.04);
+}
+
+.menu-sub-heading{
+    color: white;
+    margin: 0% auto;
+    width:300px;
+    background-color: rgb(233, 119, 78);
+}
+.order-btn-menu{
+    padding: 6% 0%;
+}
+
+/* footer */
+#footer{
+    width: 100%;
+    margin: 5% 0%;
+}
+.footer-fo{
+    padding: 5% 5%;
+}
+.footer-link{
+    margin: 0% 3%;
+}
+
+@media (max-width:686px){
+    .top-navbar{
+        padding-left: 0%;
+    }
+}
+@media (max-width:686px){
+    .top-nav-ul{
+        padding-right: 0%;
+    }
+}
+
+@media (min-width:1201px){
+    #about{
+        position: relative;
+    }
+    #zoom{
+        position: static;
+    }
+    #menu{
+        position: relative;
+    }
+    #footer{
+        position: absolute;
+    }
+}
+
+@media (max-width:1200px){
+    #about{
+        position: relative;
+    }
+    #zoom{
+        position:static;
+    }
+    #menu{
+        position: relative;
+    }
+    #footer{
+        position: absolute;
+    }
+}
+@media (min-width:576px){
+    .contact-btn{
+        margin-bottom: 4%;
+    }
+}
+
+@media (max-width:576px){
+    #hero-section{
+        margin: 0% 0%;
+    }
+    #about{
+        position: absolute;
+        margin: 0% 0%;
+    }
+    .about-heading{
+        width: 50%;
+        text-align: center;
+        margin: 12% auto;
+    }
+    .about-paragraph{
+        text-align: left;
+        padding: 0% 8%;
+        font-size: 1.3rem;
+    }
+    .contact-btn{
+        background-color: black;
+        width: 50%;
+        margin-bottom: 4%;
+    }
+}
+@media (min-width:576px){
+    .about-paragraph{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:576px){
+    #about{
+        position: relative;
+    }
+    #zoom{
+        position: absolute;
+    }
+    .zoom-img{
+        margin: 2% auto;
+    }
+}
+@media (min-width:576px){
+    .zoom-img{
+        width: 40%;
+    }
+    .zoom-img img{
+        margin: 2% auto;
+    }
+    .zoom-img{
+        margin: auto;
+    }
+}
+@media (max-width:768px){
+    .zoom-img{
+        margin-top: 2%;
+    }
+    .zoom-img {
+        width: 400px;
+        height:auto;
+        overflow: hidden;
+        }
+    
+    .zoom-img  img {
+        width: 100%;
+        transition: all .2s ease-in-out;
+        }
+    
+        .zoom-img img:hover   {
+        transform: scale(1.2);
+        }
+
+}
+@media(min-width:576px){
+    .menu-img{
+        margin: auto;
+    }
+}
+@media(min-width:576px){
+    .menu-img{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width:576px){
+    #zoom{
+        position: relative;
+    }
+    #menu{
+        position: static;
+        margin: 0% 0%
+    }
+    .menu-img{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width:1000px){
+    .menu-sub-heading{
+        width: 250px;
+    }
+}
